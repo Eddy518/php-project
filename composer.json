@@ -1,0 +1,26 @@
+{
+    "name": "eddy/php-project",
+    "authors": [
+        {
+            "name": "Eddy518",
+            "email": "edmwangi2@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\":"Core/",
+            "Http\\":"Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.24"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
